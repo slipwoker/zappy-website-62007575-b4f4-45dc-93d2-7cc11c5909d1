@@ -154,7 +154,7 @@
   --gradient-primary: linear-gradient(90deg, #3D3677 0%, #4A3E8F 100%);
   --gradient-goldShine: linear-gradient(90deg, rgba(230,194,122,0) 0%, rgba(230,194,122,0.55) 45%, rgba(255,255,255,0.65) 50%, rgba(230,194,122,0.55) 55%, rgba(230,194,122,0) 100%);
   --gradient-secondary: linear-gradient(90deg, #4C95A8 0%, #7FA6D8 100%);
-  --gradient-goldAccent: linear-gradient(135deg, #F7D147 0%, #F5C61C 100%);
+  --gradient-goldAccent: linear-gradient(135deg, #FFDE3F 0%, #F5C518 100%);
   --gradient-darkSection: linear-gradient(180deg, rgba(30,26,45,0.85) 0%, rgba(30,26,45,0.15) 100%);
   --gradient-overlayDark: linear-gradient(90deg, rgba(30,26,45,0.55) 0%, rgba(30,26,45,0.25) 45%, rgba(30,26,45,0) 70%);
   --gradient-lightSection: linear-gradient(180deg, #F5F1EF 0%, #E9E4E3 100%);
@@ -4925,11 +4925,11 @@ main.page-container.ecommerce-page,
 }
 .product-card { position: relative; }
 .card-favorite-btn { position: absolute; top: 10px; inset-inline-start: 10px; z-index: 5; background: none; border: none; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; color: var(--text-secondary, #6b7280); transition: all 0.2s ease; }
-.card-favorite-btn:hover { color: var(--primary, #e74c3c); transform: scale(1.1); }
+.card-favorite-btn:hover { color: var(--primary, #FF3C3C); transform: scale(1.1); }
 .card-favorite-btn .heart-filled { display: none; }
 .card-favorite-btn.active .heart-outline { display: none; }
 .card-favorite-btn.active .heart-filled { display: block; }
-.card-favorite-btn.active { color: #e74c3c; }
+.card-favorite-btn.active { color: #df0000; }
 .card-favorite-btn svg { width: 18px; height: 18px; }
 .product-card a.view-details-btn {
   display: block;
@@ -4977,7 +4977,7 @@ main.page-container.ecommerce-page,
 .product-card { position: relative; }
 .product-tags { position: absolute; top: 24px; right: 24px; display: flex; flex-wrap: wrap; gap: 4px; z-index: 2; max-width: calc(100% - 48px); pointer-events: none; }
 .product-tag { display: inline-block; padding: 4px 10px; font-size: 11px; font-weight: 600; border-radius: 4px; background: var(--primary); color: #fff; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 4px rgba(0,0,0,0.15); pointer-events: auto; }
-.product-tag.tag-sale { background: #ef4444; }
+.product-tag.tag-sale { background: #FF3C3C; }
 .product-tag.tag-new { background: #22c55e; }
 .product-tag.tag-featured { background: #FF3C3C; }
 
@@ -5493,7 +5493,7 @@ main.page-container.ecommerce-page,
   transition: color 0.2s;
 }
 .checkout-item-remove:hover {
-  color: #dc2626;
+  color: #df0000;
 }
 
 /* ── Order Details Sidebar ── */
@@ -5574,14 +5574,14 @@ main.page-container.ecommerce-page,
 
 /* Validation error overrides (prevent theme color inheritance) */
 .field-error {
-  color: #dc2626 !important;
+  color: #df0000 !important;
   font-size: 12px !important;
 }
 .field-error.visible {
   display: block !important;
 }
 .checkout-accordion-body .input-wrapper input.input-error {
-  border-color: #dc2626 !important;
+  border-color: #FF3C3C !important;
   box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.1) !important;
 }
 
@@ -5827,7 +5827,7 @@ main.page-container.ecommerce-page,
 .status-processing { background: #dbeafe; color: #1e40af; }
 .status-shipped { background: #e0e7ff; color: #cb0000; }
 .status-delivered { background: #d1fae5; color: #065f46; }
-.status-cancelled { background: #fee2e2; color: #991b1b; }
+.status-cancelled { background: #fee2e2; color: #cb0000; }
 .order-info-row {
   display: flex;
   justify-content: space-between;
@@ -5951,7 +5951,7 @@ main.page-container.ecommerce-page,
   font-size: 0.75rem;
 }
 .btn-icon:hover { color: var(--primary); }
-.btn-icon.btn-delete:hover { color: #dc2626; }
+.btn-icon.btn-delete:hover { color: #df0000; }
 .btn-icon svg { width: 16px; height: 16px; }
 
 /* Address modal */
@@ -6042,7 +6042,7 @@ main.page-container.ecommerce-page,
 }
 .toast.show { opacity: 1; }
 .toast.success { background: #FF3C3C; color: #fff; }
-.toast.error { background: #dc2626; color: #fff; }
+.toast.error { background: #FF3C3C; color: #fff; }
 
 @media (max-width: 640px) {
   .profile-field { flex-direction: column; gap: 4px; }
@@ -6180,7 +6180,7 @@ main.page-container.ecommerce-page,
 }
 .product-info .product-stock { display: flex; align-items: center; gap: 8px; font-weight: 500; }
 .product-info .product-stock.in-stock { color: #df0000; }
-.product-info .product-stock.out-of-stock { color: #ef4444; }
+.product-info .product-stock.out-of-stock { color: #df0000; }
 .product-info .product-stock.low-stock { color: #df0000; }
 .product-stock svg {
   /* Some themes apply global svg { max-width:100%; height:auto; } which can blow this up.
@@ -6440,13 +6440,13 @@ main.page-container.ecommerce-page,
 .coupon-remove-btn {
   background: none;
   border: none;
-  color: #dc2626;
+  color: #df0000;
   cursor: pointer;
   font-size: 0.85rem;
 }
 .coupon-remove-btn:hover { text-decoration: underline; }
 .coupon-error {
-  color: #dc2626;
+  color: #df0000;
   font-size: 0.85rem;
   margin-top: 8px;
 }
@@ -6602,7 +6602,7 @@ main.page-container.ecommerce-page,
 .cart-drawer-item-remove {
   background: none;
   border: none;
-  color: #dc2626;
+  color: #df0000;
   cursor: pointer;
   font-size: 0.8rem;
   margin-top: 8px;
@@ -8872,18 +8872,7 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 
-/* === BUTTON TEXT OVERRIDES START === */
-.btn-primary,
-.btn--primary,
-[class*="btn-primary"],
-[class*="btn--primary"] { color: #333333 !important; }
-.btn-accent,
-.btn--accent,
-[class*="btn-accent"],
-[class*="btn--accent"] { color: #333333 !important; }
-.navbar .nav-cta-btn,
-.nav-cta-btn { color: #333333 !important; }
-/* === BUTTON TEXT OVERRIDES END === */
+
 
 
 .home-hero-section h1,
@@ -8899,6 +8888,21 @@ body.accessibility-widget-visible ._access-menu {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-primary,
+.btn--primary,
+[class*="btn-primary"],
+[class*="btn--primary"] { color: #333333 !important; }
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #333333 !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
