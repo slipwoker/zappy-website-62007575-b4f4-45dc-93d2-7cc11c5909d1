@@ -1,0 +1,79 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+חנות אונליין לביגוד וטקסטיל עם חווית קנייה נוחה ומודרנית. מגוון עשיר, מחירים אטרקטיביים, משלוחים לכל הארץ וקופונים מיוחדים. קנו עכשיו!
+
+### לוקבוק
+https://example.com/lookbook
+צפו בלוקבוק האופנה העדכני ביותר שלנו והתעדכנו בטרנדים החמים של העונה. השראה, סטייל ומראה מושלם לכל אירוע. כנסו לגלות עוד!
+
+### שאלות ומדיניות
+https://example.com/faq
+כל מה שרציתם לדעת על משלוחים, החזרות, אמצעי תשלום ומדיניות החנות. קבלו תשובות מהירות לכל השאלות ורכשו בביטחון מלא. למידע נוסף לחצו כאן!
+
+### צור קשר
+https://example.com/contact
+צריכים עזרה או ייעוץ? צרו איתנו קשר דרך הטופס, טלפון או אימייל ונשמח לסייע. שירות אדיב, מענה מהיר וליווי אישי בכל שלב. פנו אלינו עכשיו!
+
+### Products
+https://example.com/products
+המוצרים שלנו - AVG BRAND
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - AVG BRAND
+
+### Category
+https://example.com/category/:slug
+מוצרים - AVG BRAND
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
