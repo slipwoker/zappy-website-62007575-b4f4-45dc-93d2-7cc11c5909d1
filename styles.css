@@ -137,16 +137,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
---primary: #E8C547;
-  --secondary: #D4A017;
-  --accent: #F5E6A3;
-  --bg-light: #F9F7F4;
+--primary: #F5C518;
+  --secondary: #FF3C3C;
+  --accent: #FFE566;
+  --bg-light: #F5F5F5;
   --bg-dark: #111111;
-  --text-dark: #1A1A1A;
-  --text-light: #F9F7F4;
-  --text-muted: #6B6B6B;
-  --border-light: #888580;
-  --border-dark: #777777;
+  --text-dark: #111111;
+  --text-light: #FFFFFF;
+  --text-muted: #555555;
+  --border-light: #858585;
+  --border-dark: #666666;
   --nav-bg: transparent;
   --nav-text: #14161A;
   --nav-text-hover: #7C3AED;
@@ -154,7 +154,7 @@
   --gradient-primary: linear-gradient(90deg, #3D3677 0%, #4A3E8F 100%);
   --gradient-goldShine: linear-gradient(90deg, rgba(230,194,122,0) 0%, rgba(230,194,122,0.55) 45%, rgba(255,255,255,0.65) 50%, rgba(230,194,122,0.55) 55%, rgba(230,194,122,0) 100%);
   --gradient-secondary: linear-gradient(90deg, #4C95A8 0%, #7FA6D8 100%);
-  --gradient-goldAccent: linear-gradient(135deg, #E6C27A 0%, #D9A95A 100%);
+  --gradient-goldAccent: linear-gradient(135deg, #F7D147 0%, #F5C61C 100%);
   --gradient-darkSection: linear-gradient(180deg, rgba(30,26,45,0.85) 0%, rgba(30,26,45,0.15) 100%);
   --gradient-overlayDark: linear-gradient(90deg, rgba(30,26,45,0.55) 0%, rgba(30,26,45,0.25) 45%, rgba(30,26,45,0) 70%);
   --gradient-lightSection: linear-gradient(180deg, #F5F1EF 0%, #E9E4E3 100%);
@@ -162,13 +162,13 @@
   
   --font-heading: Fraunces, "Playfair Display", Georgia, serif;
   --font-body: Inter, Manrope, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --primary-color: #E8C547;
-  --secondary-color: #D4A017;
-  --accent-color: #F5E6A3;
-  --background-color: #F9F7F4;
+  --primary-color: #F5C518;
+  --secondary-color: #FF3C3C;
+  --accent-color: #FFE566;
+  --background-color: #F5F5F5;
   --surface-color: #FFFFFF;
-  --text-color: #1A1A1A;
-  --text-secondary-color: #6B6B6B;
+  --text-color: #111111;
+  --text-secondary-color: #555555;
 }
 
 * {
@@ -292,7 +292,7 @@ button {
 }
 
 .btn-primary:hover {
-  background-color: #E8C547;
+  background-color: #F5C518;
   color: var(--text-light);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
@@ -304,7 +304,7 @@ button {
 }
 
 .btn-secondary:hover {
-  background-color: #D4A017;
+  background-color: #FF3C3C;
   color: var(--text-dark);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(45, 212, 191, 0.3);
@@ -402,16 +402,16 @@ button {
   --nav-bg: transparent;
   --nav-text: #14161A;
   --nav-text-hover: #7C3AED;
-  --primary: #E8C547;
-  --secondary: #D4A017;
-  --accent: #F5E6A3;
-  --bg-light: #F9F7F4;
+  --primary: #F5C518;
+  --secondary: #FF3C3C;
+  --accent: #FFE566;
+  --bg-light: #F5F5F5;
   --bg-dark: #111111;
-  --text-dark: #1A1A1A;
-  --text-light: #F9F7F4;
-  --text-muted: #6B6B6B;
-  --border-light: #888580;
-  --border-dark: #777777;
+  --text-dark: #111111;
+  --text-light: #FFFFFF;
+  --text-muted: #555555;
+  --border-light: #858585;
+  --border-dark: #666666;
 }
 
 .navbar {
@@ -520,7 +520,7 @@ button {
 }
 
 .nav-cta-btn:hover {
-  background: #E8C547;
+  background: #F5C518;
   box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
   transform: translateY(-1px);
 }
@@ -643,16 +643,16 @@ button {
   --nav-bg: transparent;
   --nav-text: #14161A;
   --nav-text-hover: #7C3AED;
-  --primary: #E8C547;
-  --secondary: #D4A017;
-  --accent: #F5E6A3;
-  --bg-light: #F9F7F4;
+  --primary: #F5C518;
+  --secondary: #FF3C3C;
+  --accent: #FFE566;
+  --bg-light: #F5F5F5;
   --bg-dark: #111111;
-  --text-dark: #1A1A1A;
-  --text-light: #F9F7F4;
-  --text-muted: #6B6B6B;
-  --border-light: #888580;
-  --border-dark: #777777;
+  --text-dark: #111111;
+  --text-light: #FFFFFF;
+  --text-muted: #555555;
+  --border-light: #858585;
+  --border-dark: #666666;
 }
 
 .navbar {
@@ -761,7 +761,7 @@ button {
 }
 
 .nav-cta-btn:hover {
-  background: #E8C547;
+  background: #F5C518;
   box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
   transform: translateY(-1px);
 }
@@ -1713,16 +1713,16 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 
 /* Footer Styles */
 :root {
-  --primary: #E8C547;
-  --secondary: #D4A017;
-  --accent: #F5E6A3;
-  --bg-light: #F9F7F4;
+  --primary: #F5C518;
+  --secondary: #FF3C3C;
+  --accent: #FFE566;
+  --bg-light: #F5F5F5;
   --bg-dark: #111111;
-  --text-dark: #1A1A1A;
-  --text-light: #F9F7F4;
-  --text-muted: #6B6B6B;
-  --border-light: #888580;
-  --border-dark: #777777;
+  --text-dark: #111111;
+  --text-light: #FFFFFF;
+  --text-muted: #555555;
+  --border-light: #858585;
+  --border-dark: #666666;
 }
 
 .site-footer {
@@ -2722,7 +2722,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-cta-section .index-cta-btn-primary:hover {
-  background: #E8C547;
+  background: #F5C518;
   box-shadow: 0 14px 28px rgba(20, 16, 32, 0.22);
   transform: translateY(-2px);
 }
@@ -3312,7 +3312,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .lookbook-cta-section .lookbook-cta-button:hover {
-  background: #E8C547;
+  background: #F5C518;
   box-shadow: 0 14px 28px rgba(20,16,32,0.22);
   transform: translateY(-2px);
 }
@@ -3838,7 +3838,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .faq-cta-section .faq-cta-btn-primary:hover {
-  background: #E8C547;
+  background: #F5C518;
   transform: translateY(-2px);
   box-shadow: 0 14px 28px rgba(20,16,32,0.22);
 }
@@ -4097,7 +4097,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .contact-contact-form-section .contact-form-submit:hover {
-  background: #E8C547;
+  background: #F5C518;
   box-shadow: 0 14px 28px rgba(124, 58, 237, 0.35);
   transform: translateY(-2px);
 }
@@ -4979,7 +4979,7 @@ main.page-container.ecommerce-page,
 .product-tag { display: inline-block; padding: 4px 10px; font-size: 11px; font-weight: 600; border-radius: 4px; background: var(--primary); color: #fff; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 4px rgba(0,0,0,0.15); pointer-events: auto; }
 .product-tag.tag-sale { background: #ef4444; }
 .product-tag.tag-new { background: #22c55e; }
-.product-tag.tag-featured { background: #f59e0b; }
+.product-tag.tag-featured { background: #FF3C3C; }
 
 /* Filter buttons - V2 themed */
 .product-filters {
@@ -5822,10 +5822,10 @@ main.page-container.ecommerce-page,
   font-weight: 500;
   text-transform: uppercase;
 }
-.status-pending { background: #fef3c7; color: #92400e; }
+.status-pending { background: #fef3c7; color: #df0000; }
 .status-paid { background: #d1fae5; color: #065f46; }
 .status-processing { background: #dbeafe; color: #1e40af; }
-.status-shipped { background: #e0e7ff; color: #7c6510; }
+.status-shipped { background: #e0e7ff; color: #cb0000; }
 .status-delivered { background: #d1fae5; color: #065f46; }
 .status-cancelled { background: #fee2e2; color: #991b1b; }
 .order-info-row {
@@ -6041,7 +6041,7 @@ main.page-container.ecommerce-page,
   transition: opacity 0.3s;
 }
 .toast.show { opacity: 1; }
-.toast.success { background: #D4A017; color: #fff; }
+.toast.success { background: #FF3C3C; color: #fff; }
 .toast.error { background: #dc2626; color: #fff; }
 
 @media (max-width: 640px) {
@@ -6061,7 +6061,7 @@ main.page-container.ecommerce-page,
 }
 .order-success-container { max-width: 600px; margin: 0 auto; text-align: center; }
 .order-success-icon { margin-bottom: 24px; }
-.order-success-icon svg { color: #8a680f; stroke: #D4A017; }
+.order-success-icon svg { color: #df0000; stroke: #FF3C3C; }
 .order-success-section h1 { font-size: 2.5rem; color: var(--text-dark); margin-bottom: 8px; }
 .order-success-subtitle { font-size: 1.25rem; color: var(--text-muted); margin-bottom: 32px; }
 .order-number-box {
@@ -6179,9 +6179,9 @@ main.page-container.ecommerce-page,
   color: var(--text-dark);
 }
 .product-info .product-stock { display: flex; align-items: center; gap: 8px; font-weight: 500; }
-.product-info .product-stock.in-stock { color: #8a680f; }
+.product-info .product-stock.in-stock { color: #df0000; }
 .product-info .product-stock.out-of-stock { color: #ef4444; }
-.product-info .product-stock.low-stock { color: #f59e0b; }
+.product-info .product-stock.low-stock { color: #df0000; }
 .product-stock svg {
   /* Some themes apply global svg { max-width:100%; height:auto; } which can blow this up.
      Clamp explicitly to icon size. */
@@ -6450,7 +6450,7 @@ main.page-container.ecommerce-page,
   font-size: 0.85rem;
   margin-top: 8px;
 }
-.discount-row { color: #8a680f; }
+.discount-row { color: #df0000; }
 
 /* Cart drawer */
 .cart-drawer-overlay {
@@ -7375,7 +7375,7 @@ html[lang="ar"] .mobile-search-panel .search-wrapper,
   }
   /* Focus state on container - wraps entire search box including button */
   .navbar .nav-search-box:focus-within {
-    border-color: var(--primary, #E8C547) !important;
+    border-color: var(--primary, #F5C518) !important;
     box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.15) !important;
   }
   .navbar .nav-search-box .nav-search-input {
@@ -8211,7 +8211,7 @@ main,
   color: var(--text-dark) !important; 
 }
 .shipping-free-note { 
-  color: #8a680f !important; 
+  color: #df0000 !important; 
   font-size: 14px !important; 
   margin-top: 4px !important; 
   font-weight: 500 !important; 
@@ -8224,7 +8224,7 @@ main,
   flex-shrink: 0 !important;
 }
 .shipping-price.free { 
-  color: #8a680f !important; 
+  color: #df0000 !important; 
 }
 .no-shipping, #shipping-methods .error { 
   text-align: center !important; 
@@ -8870,15 +8870,13 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
 /* === BUTTON TEXT OVERRIDES START === */
 .btn-primary,
 .btn--primary,
 [class*="btn-primary"],
 [class*="btn--primary"] { color: #333333 !important; }
-.btn-secondary,
-.btn--secondary,
-[class*="btn-secondary"],
-[class*="btn--secondary"] { color: #333333 !important; }
 .btn-accent,
 .btn--accent,
 [class*="btn-accent"],
@@ -8887,6 +8885,20 @@ body.accessibility-widget-visible ._access-menu {
 .nav-cta-btn { color: #333333 !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+.home-hero-section h1,
+.home-hero-section h2 {
+  font-family: 'Bebas Neue', 'Heebo', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.btn, button[class*="cta"], a[class*="cta"], .home-hero-section a {
+  border-radius: 0px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
